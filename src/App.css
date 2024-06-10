@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.modify {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.todo {
+  position: relative;
+  border: 2px solid black;
+  border-radius: 15px;
+  max-width: 400px;
+  min-width: 300px;
+  padding: 1rem 2rem;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 50%;
+  background: #ecb2b2;
+  cursor: pointer;
+}
+
+.edit {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  border: none;
+  border-radius: 50%;
+  background: #f8eb96;
+  cursor: pointer;
+}
+
+.save {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  border: none;
+  border-radius: 50%;
+  background: #a0ff81;
+  cursor: pointer;
+}
